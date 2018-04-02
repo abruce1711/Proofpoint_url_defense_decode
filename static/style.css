@@ -1,0 +1,65 @@
+.form {
+    display: block;
+    margin:25% auto;
+}
+
+.field  {
+    width: 100%;
+    height: 70px;
+    font-size: 25px;
+    border: 1px solid #e35a10;
+    border-radius: 5px;
+    transition: .3s all;
+}
+
+.submit {
+    display: block;
+    margin: 20px auto;
+}
+
+.url {
+    display: block;
+    margin: -22% auto;
+    height: 30px;
+    /*background-color: rgba(227, 90, 16, 0.5);*/
+    line-height: 1.9;
+    text-align: center;
+
+}
+
+
+button {
+    border: none;
+    background-color: #e35a10;
+    color: white;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 5% auto;
+}
+
+.notification {
+  position: absolute;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  transition: .5s all;
+}
+.success {
+  background: #70DA8B;
+  color: #343a40;
+}
+.error {
+  background: #fc5555;
+  color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
