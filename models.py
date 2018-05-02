@@ -26,7 +26,7 @@ def decode(url):
     url = re.sub('-2A', '*', url)
     url = re.sub('-2B', '+', url)
     url = re.sub('-2C', ',', url)
-    url = re.sub('-2D', '', url)
+    url = re.sub('-2D', '-', url)
     url = re.sub('-2E', '.', url)
     url = re.sub('-2F', '/', url)
 
